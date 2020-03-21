@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <% if ("hello".equals(getRequestParameter("type"))) { %>
+        <h1>Hello, world!</h1>
+    <% } else { %>
+        <h1>Good bye!</h1>
+    <% } %>
+
+    <% for (var i = 0; i < 3; i++) { %>
+        <div id="div_<%= i %>">Item <%= i %></div>
+    <% } %>
+
+    <% include("text.template"); %>
+</body>
+
+</html>

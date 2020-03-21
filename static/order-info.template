@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Order information</title>
+</head>
+
+<body>
+    <h2>Your order</h2>
+    <div>Name: <%= model("name") %></div>
+    <div>Mobile: <%= model("mobile") %></div>
+    <div>Address: <%= model("address") %></div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+<div>
+    <% for (var i = 3; i < 6; i++) { %>
+        <div>Item <%= i %></div>
+    <% } %>
+</div>
